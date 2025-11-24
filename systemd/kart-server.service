@@ -1,0 +1,12 @@
+
+[Unit]
+Description=example epoll-based server
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/kart-server
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
