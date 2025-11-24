@@ -1,0 +1,9 @@
+Package: kart-server
+Version: 1.0
+Architecture: amd64
+Maintainer: Kartonagnick@gmail.com
+Depends: libc6,libstdc++6
+Section: net
+Priority: optional 
+Installed-Size: 44
+Description: example epoll-based server
